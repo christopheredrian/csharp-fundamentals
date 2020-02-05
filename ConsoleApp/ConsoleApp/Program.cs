@@ -7,8 +7,31 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             //Types.Variables();
+            //RunPerson();
+            //RunCalculator();
+            //RunBook();
+            //Arrays.Run();
+            //Strings.Run();
+            //Enums.Enums.Run();
+            //ValidInvalid.Run();
+            RandomRef.Run();
+        }
 
+        static void RunBook()
+        {
+            var theLuckyOne = new Book();
+            theLuckyOne.Title = "The Lucky One";
+            theLuckyOne.Author = "Nicholas Spakrs";
+            theLuckyOne.NumberOfPages = 300;
 
+            Console.WriteLine(theLuckyOne);
+        }
+
+        static void RunCalculator()
+        {
+            var calculator = new Calculator();
+            var onePlusTwo = calculator.Add(1, 2);
+            Console.WriteLine(onePlusTwo);
         }
 
         static void RunPerson()
@@ -18,6 +41,7 @@ namespace ConsoleApp
             bob.LastName = "Marley";
             bob.Introduce();
         }
+
     }
 
 }
