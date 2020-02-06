@@ -40,7 +40,7 @@ namespace ConsoleApp
 
             // num to string
             var i = 123.23;
-            
+
             // currency
             Console.WriteLine(i.ToString("C"));
 
@@ -64,7 +64,6 @@ namespace ConsoleApp
             .Remove(0, 1);
 
             Console.WriteLine(builder);
-
 
         }
     }
