@@ -13,7 +13,7 @@ namespace ConsoleApp
 
             for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine(generateRandomPassword(i));
+                Console.WriteLine(generateRandomPassword(6));
             }
 
            

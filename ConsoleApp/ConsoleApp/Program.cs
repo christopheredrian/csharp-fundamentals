@@ -14,7 +14,12 @@ namespace ConsoleApp
             //Strings.Run();
             //Enums.Enums.Run();
             //ValidInvalid.Run();
-            RandomRef.Run();
+            //RandomRef.Run();
+            //ArraysRef.Run();
+            //ListRef.Run();
+            //Exercises.ExArrays.Run();
+            //DatesTimes.Run();
+            StringBuilderRef.Run();
         }
 
         static void RunBook()
