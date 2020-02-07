@@ -21,7 +21,8 @@ namespace ConsoleApp
             //DatesTimes.Run();
             //StringBuilderRef.Run();
             //FilesRef.Run();
-            Exercises.ExFiles.Run();
+            //Exercises.ExFiles.Run();
+            DebuggingRef.Run();
         }
 
         static void RunBook()

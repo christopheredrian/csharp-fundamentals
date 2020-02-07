@@ -48,6 +48,7 @@
     <Compile Include="Book.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="DatesTimes.cs" />
+    <Compile Include="DebuggingRef.cs" />
     <Compile Include="Enums\Enums.cs" />
     <Compile Include="Enums\FruitsEnum.cs" />
     <Compile Include="Exercises\ExArrays.cs" />
