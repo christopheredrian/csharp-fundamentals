@@ -10,7 +10,10 @@ namespace IntermediateRefresher
             // Customer.Run();
             //Point.Run();
             // Calculator.Run();
-            HttpCookieIndexer.Run();
+            //HttpCookieIndexer.Run();
+            //Exercises.Stopwatch.Run();
+            //Exercises.Post.Run();
+            ClassAssoc.InheritanceRunner.Run();
         }
     }
 }
