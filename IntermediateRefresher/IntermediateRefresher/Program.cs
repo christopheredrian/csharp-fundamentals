@@ -17,9 +17,10 @@ namespace IntermediateRefresher
             //Exercises.Post.Run();
             //ClassAssoc.InheritanceRunner.Run();
             //UtilityPersonRunner();
-            VehicleRunner();
+            //VehicleRunner();
+            Exercises.Stack<string>.Run();
             Console.WriteLine("...");
-            Console.ReadLine();
+            //Console.ReadLine();
         }
 
         public static void UtilityPersonRunner()
@@ -33,8 +34,18 @@ namespace IntermediateRefresher
             var car = new Car("ABC123");
             Console.WriteLine(car.GetType());
 
-            Vehicle carVehicle = car; 
-            Console.WriteLine(carVehicle.GetType());
+            var carVehicle = (Vehicle)car;
+            if (carVehicle is Car)
+            {
+                car = (Car)carVehicle;
+            }
+
+            //var carVehicle = car as Vehicle;
+
+            //if (carVehicle != null)
+            //{
+            //    Console.WriteLine(carVehicle.GetType());
+            //}
         }
     }
 }
