@@ -1,6 +1,8 @@
 ﻿using System;
 using Utilities;
 using Utilities.Vehicles;
+using Utilities.Shapes;
+using System.Collections.Generic;
 
 namespace IntermediateRefresher
 {
@@ -18,7 +20,8 @@ namespace IntermediateRefresher
             //ClassAssoc.InheritanceRunner.Run();
             //UtilityPersonRunner();
             //VehicleRunner();
-            Exercises.Stack<string>.Run();
+            //Exercises.Stack<string>.Run();
+            RunCanvas();
             Console.WriteLine("...");
             //Console.ReadLine();
         }
@@ -46,6 +49,18 @@ namespace IntermediateRefresher
             //{
             //    Console.WriteLine(carVehicle.GetType());
             //}
+        }
+
+        public static void RunCanvas()
+        {
+            var canvas = new Canvas();
+            var shapes = new List<Shape>
+            {
+                new Circle() { Height= 100, Width = 200, Position= new Position {X = 0, Y = 0}},
+                new Rectangle() { Height= 50, Width = 50 , Position= new Position {X = 50, Y = 25}}
+            };
+            canvas.DrawShapes(shapes);
+
         }
     }
 }
