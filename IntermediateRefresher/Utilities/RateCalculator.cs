@@ -1,6 +1,6 @@
 ﻿namespace Utilities
 {
-    internal class RateCalculator 
+    internal class RateCalculator : IRateCalculator
     {
         public int Calculate(UtilityPerson person)
         {
