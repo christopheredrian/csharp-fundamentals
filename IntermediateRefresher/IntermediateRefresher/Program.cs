@@ -1,4 +1,5 @@
 ﻿using System;
+using Utilities;
 
 namespace IntermediateRefresher
 {
@@ -13,7 +14,17 @@ namespace IntermediateRefresher
             //HttpCookieIndexer.Run();
             //Exercises.Stopwatch.Run();
             //Exercises.Post.Run();
-            ClassAssoc.InheritanceRunner.Run();
+            //ClassAssoc.InheritanceRunner.Run();
+            UtilityPersonRunner();
+            Console.WriteLine("...");
+            Console.ReadLine();
+        }
+
+        public static void UtilityPersonRunner()
+        {
+            var utilPerson = new UtilityPerson();
+            utilPerson.Promote();
+
         }
     }
 }
