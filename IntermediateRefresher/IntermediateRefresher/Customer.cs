@@ -6,9 +6,18 @@ namespace IntermediateRefresher
 {
     class Customer
     {
+
         public int Id;
         public string Name;
         public readonly List<Order> Orders = new List<Order>();
+
+        private DateTime _birthDate;
+
+        public DateTime BirthDate
+        {
+            get { return _birthDate; }
+            set { _birthDate = value; }
+        }
         public Customer()
         {
         }
@@ -39,6 +48,9 @@ namespace IntermediateRefresher
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
             customer.Promote();
+            // birthdate
+            customer.BirthDate = new DateTime(2000, 1, 10);
+            System.Console.WriteLine(customer.BirthDate);
         }
     }
 }

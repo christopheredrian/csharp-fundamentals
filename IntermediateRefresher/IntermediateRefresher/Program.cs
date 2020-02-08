@@ -6,10 +6,11 @@ namespace IntermediateRefresher
     {
         static void Main(string[] args)
         {
-            //Person.Run();
-            Customer.Run();
+            // Person.Run();
+            // Customer.Run();
             //Point.Run();
-            //Calculator.Run();
+            // Calculator.Run();
+            HttpCookieIndexer.Run();
         }
     }
 }
