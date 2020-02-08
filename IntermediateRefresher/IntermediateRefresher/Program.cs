@@ -1,5 +1,6 @@
 ﻿using System;
 using Utilities;
+using Utilities.Vehicles;
 
 namespace IntermediateRefresher
 {
@@ -15,7 +16,8 @@ namespace IntermediateRefresher
             //Exercises.Stopwatch.Run();
             //Exercises.Post.Run();
             //ClassAssoc.InheritanceRunner.Run();
-            UtilityPersonRunner();
+            //UtilityPersonRunner();
+            VehicleRunner();
             Console.WriteLine("...");
             Console.ReadLine();
         }
@@ -24,7 +26,15 @@ namespace IntermediateRefresher
         {
             var utilPerson = new UtilityPerson();
             utilPerson.Promote();
+        }
 
+        public static void VehicleRunner()
+        {
+            var car = new Car("ABC123");
+            Console.WriteLine(car.GetType());
+
+            Vehicle carVehicle = car; 
+            Console.WriteLine(carVehicle.GetType());
         }
     }
 }
