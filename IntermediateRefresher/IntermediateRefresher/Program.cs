@@ -21,7 +21,8 @@ namespace IntermediateRefresher
             //UtilityPersonRunner();
             //VehicleRunner();
             //Exercises.Stack<string>.Run();
-            RunCanvas();
+            //RunCanvas();
+            Exercises.Workflows.WorkFlowEngine.Run();
             Console.WriteLine("...");
             //Console.ReadLine();
         }
