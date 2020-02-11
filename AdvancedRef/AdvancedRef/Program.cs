@@ -8,7 +8,9 @@ namespace AdvancedRef
         static void Main(string[] args)
         {
             //RunDelegate();
-            Lambda.LambdaRunner.Run();
+            //Lambda.LambdaRunner.Run();
+            //Events.EventRunner.Run();
+            Events.Center.Run();
         }
 
         public static void RunDelegate()
