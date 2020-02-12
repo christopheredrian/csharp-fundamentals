@@ -11,7 +11,8 @@ namespace AdvancedRef
             //Lambda.LambdaRunner.Run();
             //Events.EventRunner.Run();
             //Events.Center.Run();
-            ExtensionMethods.ExtensionMethodsRunner.Run();
+            //ExtensionMethods.ExtensionMethodsRunner.Run();
+            LINQ.LinqRunner.Run();
         }
 
         public static void RunDelegate()
