@@ -13,7 +13,8 @@ namespace AdvancedRef
             //Events.Center.Run();
             //ExtensionMethods.ExtensionMethodsRunner.Run();
             //LINQ.LinqRunner.Run();
-            NullableTypes.NullableTypesRunner.Run();
+            //NullableTypes.NullableTypesRunner.Run();
+            ComparingObjects.CompareRunner.Run();
         }
 
         public static void RunDelegate()
