@@ -10,7 +10,8 @@ namespace AdvancedRef
             //RunDelegate();
             //Lambda.LambdaRunner.Run();
             //Events.EventRunner.Run();
-            Events.Center.Run();
+            //Events.Center.Run();
+            ExtensionMethods.ExtensionMethodsRunner.Run();
         }
 
         public static void RunDelegate()
