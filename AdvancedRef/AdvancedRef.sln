@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedRef", "AdvancedRef\AdvancedRef.csproj", "{18AEE2E0-C6EC-403D-83FA-6493AC0F4E73}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedRef", "AdvancedRef\AdvancedRef.csproj", "{18AEE2E0-C6EC-403D-83FA-6493AC0F4E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{559A6DA0-6015-479C-B52F-C17F680379EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{18AEE2E0-C6EC-403D-83FA-6493AC0F4E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18AEE2E0-C6EC-403D-83FA-6493AC0F4E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18AEE2E0-C6EC-403D-83FA-6493AC0F4E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559A6DA0-6015-479C-B52F-C17F680379EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559A6DA0-6015-479C-B52F-C17F680379EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559A6DA0-6015-479C-B52F-C17F680379EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559A6DA0-6015-479C-B52F-C17F680379EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5306CB3-85B9-4C51-B6DC-096410D3647A}
 	EndGlobalSection
 EndGlobal
